@@ -1,6 +1,5 @@
-import ArtistHeader from "../project-header";
-import ProjectLinks from "../project-links";
-
+import ArtistHeader from "@/components/project-header";
+import ProjectLinks from "@/components/project-links";
 
 const kanyeProjects = [
     { title: "Yandhi (2018)", url: "https://untitled.stream/library/project/-6q8lH_K6Wua6GTIL1Miv" },
@@ -19,13 +18,12 @@ const kanyeProjects = [
     { title: "Bully (2025)", url: "https://untitled.stream/library/project/DdbuqDJHQ5B94DrqBpTEj" },
     { title: "Donda 2 (2025)", url: "https://untitled.stream/library/project/JWmZCXft8C9Yrurjot3wQ" },
     { title: "So Help Me God:Angels (2015)", url: "https://untitled.stream/library/project/UZHEVWjyvFk_aiLHF-zt1" },
-    // Add more titles and URLs here
 ];
 
 export default function KanyeWest() {
     return (
-        <div className="container mx-auto px-4 py-8">
-            <div className="font-courier w-full md:w-1/2">
+        <div className="py-8">
+            <div className="font-courier w-full">
                 <ArtistHeader name="Kanye West" />
                 <ProjectLinks projects={kanyeProjects} />
             </div>
