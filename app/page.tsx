@@ -1,4 +1,11 @@
+import Drake from "@/components/artists/drake";
+import FrankOcean from "@/components/artists/frank-ocean";
 import KanyeWest from "@/components/artists/kanye-west";
+import KendrickLamar from "@/components/artists/kendrick-lamar";
+import LilUziVert from "@/components/artists/lil-uzi-vert";
+import PlayboiCarti from "@/components/artists/playboi-carti";
+import TravisScott from "@/components/artists/travis-scott";
+import TylerTheCreator from "@/components/artists/tyler-the-creator";
 import Header from "@/components/header";
 import { Separator } from "@/components/ui/separator";
 import { TextScramble } from "@/components/ui/text-scramble";
@@ -14,8 +21,22 @@ export default function Page() {
             Explore unreleased songs and albums from top Hip Hop artists like Kanye West, Frank Ocean, Tyler, The Creator, Kendrick Lamar, Drake, and Playboi Carti. All links lead to <strong>[untitled]</strong> — a fan-made, decentralized platform archiving unreleased creator&apos;s projects.
           </p>
         </div>
-        <Separator className="bg-black h-2"/>
-        <KanyeWest/>
+        <Separator className="bg-black h-2" />
+        <KanyeWest />
+        <Separator className="bg-black h-2" />
+        <FrankOcean />
+        <Separator className="bg-black h-2" />
+        <TylerTheCreator />
+        <Separator className="bg-black h-2" />
+        <KendrickLamar />
+        <Separator className="bg-black h-2" />
+        <TravisScott />
+        <Separator className="bg-black h-2" />
+        <PlayboiCarti />
+        <Separator className="bg-black h-2" />
+        <Drake />
+        <Separator className="bg-black h-2" />
+        <LilUziVert />
       </div>
     </main>
   );
